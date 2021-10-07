@@ -1,0 +1,26 @@
+.closed{
+  padding: 1rem;
+  padding-top: 3rem;
+
+  @mixin atMedium {
+    width: 60%;
+    margin: 0 auto;
+  }
+
+  &__heading{
+    text-decoration: none;
+    line-height: 1.4;
+    margin-bottom: 1rem;
+  }
+
+  &__txt{
+
+    & span{
+      display: block;
+      margin-top: 1rem;
+      font-size: 2rem;
+      font-weight: 600;
+    }
+
+  }
+}
